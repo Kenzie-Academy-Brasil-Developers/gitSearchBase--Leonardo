@@ -1,0 +1,145 @@
+body{
+    background: #212529;
+}
+
+.main{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 61px;
+}
+
+.main__perfil{
+    width: 784px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil__content{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    gap: 5px;
+}
+
+.perfil__title{
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.perfil__button{
+    width: 169px;
+    height: 38px;
+    left: 943px;
+    top: 82px;
+    
+    background: #FFFFFF14;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 0px;
+
+    color: #FFFFFF;
+}
+
+.perfil__button:hover{
+    background-color: #FFFFFF33;
+}
+
+img {
+    border: 2px solid #D6336C;
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+    overflow: hidden;
+}
+
+.main__repositorys{
+    gap: 1%;
+    margin-top: 50px;
+    display: flex;
+    width: 784px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.repositorys--unity{
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px 27px 25px 27px;
+    gap: 32px;
+
+
+    width: 49.5%;
+    height: 243px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.repositorys--unity:hover{
+    background: #191C1F;
+    border: 2px solid #FFFFFF;
+}
+
+.repositorys__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    
+    white-space: nowrap; /* impede que o texto quebre linha */
+    overflow: hidden; /* esconde o que passa da largura */
+    text-overflow: ellipsis; /* adiciona reticências */
+}
+
+.repositorys__description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    height: 63px;
+    max-height: 63px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.repositorys__button{
+    width: 93px;
+    height: 28px;
+
+    background: #212529;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+.repositorys__button:hover{
+    background: #D6336C;
+    border: 1px solid #D6336C;
+    border-radius: 4px;
+}
+
+
